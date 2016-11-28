@@ -1,3 +1,7 @@
+REM 
+REM Script created by https://github.com/DouglasAntunes
+REM Updates of this script on https://github.com/DouglasAntunes/kf2_generate.default_KFMapSummary
+REM 
 @ECHO off
 :START
 FOR /R .\KFGame\Cache\ %%F IN (KF-*.kfm) DO (
